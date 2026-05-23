@@ -9,8 +9,7 @@ WORKDIR /app
 # Para local y Jenkins
 #COPY target/*.jar app.jar
 # Para github actions
-COPY target/*.jar app.jar
-
+COPY target/store-app-1.0.0.jar app.jar
 # Indica el puerto por el que la aplicación escuchará dentro del contenedor
 EXPOSE 8888
 
